@@ -320,21 +320,21 @@ public class TraceGraph implements Serializable {
     //
     private static boolean isSerial(Condition subGraph) {
 
-        switch (subGraph.getConditionType()) {
-            case TYPE_WHEN: // 串行
-                return true;
-            case TYPE_THEN: // 并行
-                return false;
-            case TYPE_IF: // 并行
-                return false;
-            case TYPE_SWITCH: // 并行
-                return false;
-            case TYPE_FOR: // 不确定, 先按照串行计算
-                return false;
-            case TYPE_WHILE: // 不确定, 先按照串行计算
-                return false;
-            default: // 默认串行
-                return false;
-        }
+        return switch (subGraph.getConditionType()) {
+            case TYPE_WHEN -> // 串行
+                    true;
+            case TYPE_THEN -> // 并行
+                    false;
+            case TYPE_IF -> // 并行
+                    false;
+            case TYPE_SWITCH -> // 并行
+                    false;
+            case TYPE_FOR -> // 不确定, 先按照串行计算
+                    true;
+            case TYPE_WHILE -> // 不确定, 先按照串行计算
+                    true;
+            default -> // 默认串行
+                    false;
+        };
     }
 }
