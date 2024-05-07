@@ -1,0 +1,434 @@
+{
+  "nodes": [
+    {
+      "id": 109757538,
+      "name": null,
+      "label": "[开始]",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 1842102517,
+      "name": "A",
+      "label": "A",
+      "type": "NODE",
+      "statistics": {
+        "271341439": {
+          "startTime": "2024-05-06 17:00:53.054",
+          "endTime": "2024-05-06 17:00:53.055",
+          "id": "271341439",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": -250749970,
+      "name": null,
+      "label": "(when)开始",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 1641129239,
+      "name": null,
+      "label": "(then)开始",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 1457157255,
+      "name": "B",
+      "label": "B",
+      "type": "NODE",
+      "statistics": {
+        "79807099": {
+          "startTime": "2024-05-06 17:00:53.060",
+          "endTime": "2024-05-06 17:00:53.061",
+          "id": "79807099",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": 487275996,
+      "name": null,
+      "label": "(when)开始",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 848102479,
+      "name": "A",
+      "label": "A",
+      "type": "NODE",
+      "statistics": {
+        "271341439": {
+          "startTime": "2024-05-06 17:00:53.067",
+          "endTime": "2024-05-06 17:00:53.067",
+          "id": "271341439",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "id": 17792118,
+      "name": "B",
+      "label": "B",
+      "type": "NODE",
+      "statistics": {
+        "79807099": {
+          "startTime": "2024-05-06 17:00:53.066",
+          "endTime": "2024-05-06 17:00:53.067",
+          "id": "79807099",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": 74735260,
+      "name": "C",
+      "label": "C",
+      "type": "NODE",
+      "statistics": {
+        "1107931806": {
+          "startTime": "2024-05-06 17:00:53.066",
+          "endTime": "2024-05-06 17:00:53.067",
+          "id": "1107931806",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": -580511531,
+      "name": null,
+      "label": "(when)结束",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": -1249701168,
+      "name": null,
+      "label": "(then)结束",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": -556230028,
+      "name": null,
+      "label": "(then)开始",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 316731851,
+      "name": "C",
+      "label": "C",
+      "type": "NODE",
+      "statistics": {
+        "1107931806": {
+          "startTime": "2024-05-06 17:00:53.060",
+          "endTime": "2024-05-06 17:00:53.061",
+          "id": "1107931806",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": 1242969461,
+      "name": "B",
+      "label": "B",
+      "type": "NODE",
+      "statistics": {
+        "79807099": {
+          "startTime": "2024-05-06 17:00:53.063",
+          "endTime": "2024-05-06 17:00:53.064",
+          "id": "79807099",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": 2073148269,
+      "name": null,
+      "label": "(then)结束",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": -1539418761,
+      "name": null,
+      "label": "(then)开始",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 1798636297,
+      "name": "A",
+      "label": "A",
+      "type": "NODE",
+      "statistics": {
+        "271341439": {
+          "startTime": "2024-05-06 17:00:53.060",
+          "endTime": "2024-05-06 17:00:53.061",
+          "id": "271341439",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": 2127481101,
+      "name": "B",
+      "label": "B",
+      "type": "NODE",
+      "statistics": {
+        "79807099": {
+          "startTime": "2024-05-06 17:00:53.063",
+          "endTime": "2024-05-06 17:00:53.064",
+          "id": "79807099",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.001
+        }
+      }
+    },
+    {
+      "id": -1440720080,
+      "name": null,
+      "label": "(then)结束",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": -885189785,
+      "name": null,
+      "label": "(when)结束",
+      "type": "LINK",
+      "statistics": {}
+    },
+    {
+      "id": 92862012,
+      "name": "B",
+      "label": "B",
+      "type": "NODE",
+      "statistics": {
+        "79807099": {
+          "startTime": "2024-05-06 17:00:53.069",
+          "endTime": "2024-05-06 17:00:53.069",
+          "id": "79807099",
+          "input": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "output": {
+            "_data": "{\"BizCode\":\"1003\", \"writtenOffLoanInfo\":null}"
+          },
+          "cost": 0.0
+        }
+      }
+    },
+    {
+      "id": 100571,
+      "name": null,
+      "label": "[结束]",
+      "type": "LINK",
+      "statistics": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": -1778435867,
+      "label": null,
+      "sourceId": 109757538,
+      "targetId": 1842102517
+    },
+    {
+      "id": 1743556460,
+      "label": null,
+      "sourceId": 1842102517,
+      "targetId": -250749970
+    },
+    {
+      "id": 690394161,
+      "label": null,
+      "sourceId": -250749970,
+      "targetId": 1641129239
+    },
+    {
+      "id": 1183581005,
+      "label": null,
+      "sourceId": 1641129239,
+      "targetId": 1457157255
+    },
+    {
+      "id": 639700080,
+      "label": null,
+      "sourceId": 1457157255,
+      "targetId": -1249701168
+    },
+    {
+      "id": 1295584884,
+      "label": null,
+      "sourceId": 1641129239,
+      "targetId": 487275996
+    },
+    {
+      "id": -1764899982,
+      "label": null,
+      "sourceId": 487275996,
+      "targetId": 848102479
+    },
+    {
+      "id": -1798053382,
+      "label": null,
+      "sourceId": 848102479,
+      "targetId": 17792118
+    },
+    {
+      "id": 1229821428,
+      "label": null,
+      "sourceId": 17792118,
+      "targetId": 74735260
+    },
+    {
+      "id": 2112662502,
+      "label": null,
+      "sourceId": 74735260,
+      "targetId": -580511531
+    },
+    {
+      "id": -728266208,
+      "label": null,
+      "sourceId": -580511531,
+      "targetId": -1249701168
+    },
+    {
+      "id": -1407528160,
+      "label": null,
+      "sourceId": -1249701168,
+      "targetId": -556230028
+    },
+    {
+      "id": 1985271550,
+      "label": null,
+      "sourceId": -556230028,
+      "targetId": 316731851
+    },
+    {
+      "id": -1377320831,
+      "label": null,
+      "sourceId": 316731851,
+      "targetId": 2073148269
+    },
+    {
+      "id": 1064848770,
+      "label": null,
+      "sourceId": -556230028,
+      "targetId": 1242969461
+    },
+    {
+      "id": 1671053106,
+      "label": null,
+      "sourceId": 1242969461,
+      "targetId": 2073148269
+    },
+    {
+      "id": -1273987686,
+      "label": null,
+      "sourceId": 2073148269,
+      "targetId": -1539418761
+    },
+    {
+      "id": -1034964589,
+      "label": null,
+      "sourceId": -1539418761,
+      "targetId": 1798636297
+    },
+    {
+      "id": -779995968,
+      "label": null,
+      "sourceId": 1798636297,
+      "targetId": -1440720080
+    },
+    {
+      "id": -1868824961,
+      "label": null,
+      "sourceId": -1539418761,
+      "targetId": 2127481101
+    },
+    {
+      "id": 819886880,
+      "label": null,
+      "sourceId": 2127481101,
+      "targetId": -1440720080
+    },
+    {
+      "id": 1377607720,
+      "label": null,
+      "sourceId": -1440720080,
+      "targetId": -885189785
+    },
+    {
+      "id": -812496908,
+      "label": null,
+      "sourceId": -885189785,
+      "targetId": 92862012
+    },
+    {
+      "id": 983253674,
+      "label": null,
+      "sourceId": 92862012,
+      "targetId": 100571
+    }
+  ]
+}

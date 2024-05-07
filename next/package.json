@@ -1,0 +1,29 @@
+{
+  "name": "app-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@antv/x6": "^2.18.1",
+    "@antv/x6-plugin-selection": "^2.2.2",
+    "@antv/x6-react-shape": "^2.2.3",
+    "@jansora/bytemd": "0.0.68",
+    "@jansora/next": "0.0.68",
+    "@jansora/ui": "0.0.68",
+    "@wojtekmaj/react-hooks": "^1.18.0",
+    "classnames": "^2.5.1",
+    "insert-css": "^2.0.0",
+    "raw-loader": "^4.0.2",
+    "react-pdf": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.14",
+    "typescript": "5.1.6"
+  }
+}
