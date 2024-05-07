@@ -330,9 +330,9 @@ public class TraceGraph implements Serializable {
             case TYPE_SWITCH: // 并行
                 return false;
             case TYPE_FOR: // 不确定, 先按照串行计算
-                return true;
+                return false;
             case TYPE_WHILE: // 不确定, 先按照串行计算
-                return true;
+                return false;
             default: // 默认串行
                 return false;
         }
