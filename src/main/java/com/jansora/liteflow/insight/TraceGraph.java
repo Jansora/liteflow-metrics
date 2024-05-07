@@ -321,10 +321,10 @@ public class TraceGraph implements Serializable {
     private static boolean isSerial(Condition subGraph) {
 
         return switch (subGraph.getConditionType()) {
-            case TYPE_WHEN -> // 串行
-                    true;
-            case TYPE_THEN -> // 并行
+            case TYPE_WHEN -> // 并行
                     false;
+            case TYPE_THEN -> // 串行
+                    true;
             case TYPE_IF -> // 并行
                     false;
             case TYPE_SWITCH -> // 并行
