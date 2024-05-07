@@ -334,7 +334,7 @@ public class TraceGraph implements Serializable {
             case TYPE_WHILE -> // 不确定, 先按照串行计算
                     true;
             default -> // 默认串行
-                    false;
+                    true;
         };
     }
 }
