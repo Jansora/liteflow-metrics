@@ -24,7 +24,7 @@ export default async function Page() {
     //
     // });
 
-    const response = await fetch("http://127.0.0.1:8080/ai-chameleon-runtime/test", {
+    const response = await fetch("http://127.0.0.1:8080/liteflow-runtime/test", {
         method: 'PUT',
         headers: clientHeader(),
         cache: 'no-store',

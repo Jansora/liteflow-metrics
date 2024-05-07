@@ -83,7 +83,7 @@ public class FlowContext {
                             "sub1" +
                             "), " +
                             "sub2, " +
-                            "SER(A, abc)" +
+                            "SER(A, B)" +
                             "), " +
                             "B" +
                             ")"

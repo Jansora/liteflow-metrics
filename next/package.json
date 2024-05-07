@@ -16,6 +16,7 @@
     "@jansora/next": "0.0.68",
     "@jansora/ui": "0.0.68",
     "@wojtekmaj/react-hooks": "^1.18.0",
+    "autoprefixer": "^10.4.19",
     "classnames": "^2.5.1",
     "insert-css": "^2.0.0",
     "raw-loader": "^4.0.2",
