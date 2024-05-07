@@ -31,6 +31,31 @@ cd ./next && yarn dev
 
 
 ## DEMO 效果
+定义的结构是这样的
+
+```java
+
+LiteFlowChainELBuilder.createChain().setChainId("sub1").setEL(
+   "PAR(A, B, C)"
+).build();
+LiteFlowChainELBuilder.createChain().setChainId("sub2").setEL(
+        "SER(C, B)"
+).build();
+LiteFlowChainELBuilder.createChain().setChainId("chain1").setEL(
+        "SER(A, " +
+                "PAR(" +
+                "SER(B, " +
+                "sub1" +
+                "), " +
+                "sub2, " +
+                "SER(A, abc)" +
+                "), " +
+                "B" +
+                ")"
+).build();
+
+```
+
 以下是根据 Liteflow 的 Chain 提取出来可视化流程图截图
 ![](./img/img.png)
 
