@@ -12,6 +12,20 @@ insight into liteflow runtime AND collect performance information.
 
 如需验证, 请启动 java 工程, 然后启动前端工程
 
+java 启动时需要增加一些 VM 配置 (JDK17 适配)
+
+```
+--add-exports=java.base/sun.nio.ch=ALL-UNNAMED
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+--add-opens=java.base/java.io=ALL-UNNAMED
+--add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED
+--add-opens=java.base/sun.reflect.annotation=ALL-UNNAMED
+```
+
+![](./img/img_2.png)
+
+
 ```shell
 cd ./next && yarn dev
 ```
@@ -42,16 +56,16 @@ LiteFlowChainELBuilder.createChain().setChainId("sub2").setEL(
         "SER(C, B)"
 ).build();
 LiteFlowChainELBuilder.createChain().setChainId("chain1").setEL(
-        "SER(A, " +
-                "PAR(" +
-                "SER(B, " +
-                "sub1" +
-                "), " +
-                "sub2, " +
-                "SER(A, abc)" +
-                "), " +
-                "B" +
-                ")"
+                    "SER(A, " +
+                            "PAR(" +
+                            "SER(B, " +
+                            "sub1" +
+                            "), " +
+                            "sub2, " +
+                            "SER(A, B)" +
+                            "), " +
+                            "B" +
+                        ")"
 ).build();
 
 ```
